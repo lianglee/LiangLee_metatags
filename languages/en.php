@@ -14,8 +14,10 @@ $english = array(
 	'llee:metas:4' => 'Robots is used by search engine to Crawling or Crawl your website pages Example: index,follow,noindex,nofollow,none,noarchive.',
 	'llee:metas:5' => 'After how many days Search engine RECrawl your website pages Example 1, 2 , 3, 5.',
 	'llee:metas:6' => 'Language of your website contents Example: en-US, cn, de.',
-	'llee:metas:7' => 'All right reserved Liang Lee 2012.',
-	'llee:metas:8' => 'Liang Lee Meta Tags Manger.',
+	'llee:metas:7' => 'Google Webmaster Verification Code: Example JxTsbJ30igb1MGWmzLD8jo+UTvyiYRCR1T63Qx74Y6=.',
+	'llee:metas:8' => 'Webutation Site Verification Code: Example webutation6e5c3d899b9b236dd27821a8a6481afa',
+	'llee:metas:9' => 'All right reserved Liang Lee 2012.',
+	'llee:metas:10' => 'Liang Lee Meta Tags Manger.',
 
 
 );

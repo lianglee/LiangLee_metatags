@@ -24,6 +24,8 @@ $liang_lee_Metainfo4 = elgg_echo('llee:metas:4');
 $liang_lee_Metainfo5 = elgg_echo('llee:metas:5');
 $liang_lee_Metainfo6 = elgg_echo('llee:metas:6');
 $liang_lee_Metainfo7 = elgg_echo('llee:metas:7');
+$liang_lee_Metainfo7 = elgg_echo('llee:metas:8');
+$liang_lee_Metainfo7 = elgg_echo('llee:metas:9');
 
 /**
 * Resgister Settings
@@ -63,6 +65,19 @@ $liang_lee_SiteMeta_6 = elgg_view("input/text", array(
 "placeholder" => "cn",
 "value" => $vars['entity']->LiangLee_contentLang
 ));
+
+$liang_lee_SiteMeta_6 = elgg_view("input/text", array(
+"name" => "params[LiangLee_Gverify]", 
+"placeholder" => "cn",
+"value" => $vars['entity']->LiangLee_Gverify
+));
+
+$liang_lee_SiteMeta_6 = elgg_view("input/text", array(
+"name" => "params[LiangLee_webutation]", 
+"placeholder" => "cn",
+"value" => $vars['entity']->LiangLee_webutation
+));
+
 $settings = <<<__HTML
 
     <h3>$lleesettings</h3>
@@ -78,6 +93,10 @@ $settings = <<<__HTML
 		<p><i>$liang_lee_Metainfo5</i><br>$liang_lee_SiteMeta_5</p>
 		<p></p>
 		<p><i>$liang_lee_Metainfo6</i><br>$liang_lee_SiteMeta_6</p>
+		<p></p>
+		<p><i>$liang_lee_Metainfo6</i><br>$liang_lee_SiteMeta_7</p>
+		<p></p>
+		<p><i>$liang_lee_Metainfo6</i><br>$liang_lee_SiteMeta_8</p>
 		<p><i>$liang_lee_Metainfo7</i>
 		<p>Release: $plug_rel</p>
 		<p>Version: $plug_ver</p>

@@ -42,6 +42,16 @@ global $LiangLee_revisit;
 **/
 global $LiangLee_contentLang;
 /**
+* Set site contents Google Webmaster verification variable
+* @ascess public
+**/
+global $LiangLee_Gverify;
+/**
+* Set site contents Webutation verification variable
+* @ascess public
+**/
+global $LiangLee_webutation;
+/**
 * Get Library
 * @ascess public
 **/
@@ -63,5 +73,11 @@ echo "<meta name=\"revisit-after\" content=\"".$LiangLee_revisit."\" />\n";
 }
 if (elgg_get_plugin_setting('LiangLee_contentLang', 'LiangLee_metatags')) {
 echo "<meta http-equiv=\"content-language\" content=\"".$LiangLee_contentLang."\">\n"; 
+}
+if (elgg_get_plugin_setting('LiangLee_Gverify', 'LiangLee_metatags')) {
+echo "<meta http-equiv=\"verify-v1\" content=\"".$LiangLee_Gverify."\">\n"; 
+}
+if (elgg_get_plugin_setting('LiangLee_webutation', 'LiangLee_metatags')) {
+echo "<meta http-equiv=\"webutation-site-verification\" content=\"".$LiangLee_webutation."\">\n"; 
 } 
 ?>
