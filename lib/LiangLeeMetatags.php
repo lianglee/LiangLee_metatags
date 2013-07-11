@@ -48,6 +48,18 @@ global $LiangLee_revisit;
 global $LiangLee_contentLang;
 
 /**
+* Set google verify
+* @ascess public
+**/
+global $LiangLee_Gverify;
+
+/**
+* Set webutation verify
+* @ascess public
+**/
+global $LiangLee_webutation;
+
+/**
 * Fetch Settings
 * @ascess public
 **/
@@ -82,5 +94,9 @@ $LiangLee_revisit = elgg_get_plugin_setting("LiangLee_revisit", "LiangLee_metata
 * @ascess public
 **/
 $LiangLee_contentLang = elgg_get_plugin_setting("LiangLee_contentLang", "LiangLee_metatags");
+
+//added by Boyd Lynn Gerber <gerberb@zenez.com>
+$LiangLee_Gverify = elgg_get_plugin_setting('LiangLee_Gverify', 'LiangLee_metatags');
+$LiangLee_webutation = elgg_get_plugin_setting('LiangLee_webutation', 'LiangLee_metatags');
 }
 ?>
